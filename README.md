@@ -6,3 +6,4 @@
     - Constructor
     - Vectors
     - Problem Solving
+    - pointers
