@@ -7,3 +7,11 @@
     - Vectors
     - Problem Solving
     - pointers
+
+## Day 2
+    - vector
+    - pointer
+    - vector pointer
+    - vector
+    - array
+    - array and vector problems
