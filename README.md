@@ -15,6 +15,15 @@
     - vector
     - array
     - array and vector problems
+
 ## Day 3
     - recursion
     - logical building problems using recursion
+
+## Day 4
+    - Pointer and their types
+    - Problems
+    - Memory allocation
+    - Constructor
+    - pointer problems
+    - Dicussion on Recursion and its types
