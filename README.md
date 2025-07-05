@@ -15,3 +15,6 @@
     - vector
     - array
     - array and vector problems
+## Day 3
+    - recursion
+    - logical building problems using recursion
