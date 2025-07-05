@@ -5,15 +5,25 @@ It stands for "memory allocation" and is used to request a block of memory from 
     - No access to memory space.
 */
 
-#include<iostream>
-#include<stdio.h>
+#include <iostream>
+#include <cstdlib>  // Required for malloc and free
+
 using namespace std;
 
-int main(){
+int main() {
     int *p;
-    p = malloc(sizeof(int));
+    p = (int*)malloc(sizeof(int));  // Cast is needed in C++
+    
+    if (p == NULL) {  // Always check if allocation succeeded
+        cerr << "Memory allocation failed!";
+        return 1;
+    }
+    
     *p = 40;
-
-
+    cout << "Allocated value: " << *p << endl;
+    
+    free(p);  // Don't forget to free the memory!
+    p = NULL; // Good practice after freeing
+    
     return 0;
 }
