@@ -29,13 +29,11 @@ void insertAtTail(node* &head, node* &tail, int value){
     newNode->next = NULL;
     
     if(head == NULL){
-        // If list is empty, new node is both head and tail
         head = tail = newNode;
     }
     else{
-        // Link new node after current tail
         tail->next = newNode;
-        tail = newNode; // Update tail to new node
+        tail = newNode; 
     }
 }
 
@@ -43,23 +41,24 @@ int main(){
     node *head = NULL;
     node *tail = NULL;
     
-    // Insert initial nodes
     insertAtTail(head, tail, 10);
     insertAtTail(head, tail, 20);
     insertAtTail(head, tail, 30);
+    insertAtTail(head, tail, 40);
+    insertAtTail(head, tail, 50);
+
     
     cout << "Original list: ";
     printLinkedList(head);
     
-    insertAtHead(head, 5);
+    insertAtHead(head, 11);
     cout << "After inserting 5 at head: ";
     printLinkedList(head);
     
-    insertAtTail(head, tail, 40);
+    insertAtTail(head, tail, 111);
     cout << "After inserting 40 at tail: ";
     printLinkedList(head);
     
-    // Clean up memory
     node *current = head;
     while(current != NULL){
         node *temp = current;
