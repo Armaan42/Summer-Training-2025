@@ -17,6 +17,13 @@ void printLinkedList(node *head){
     cout << "NULL" << endl;
 }
 
+void insertAtHead(node* &head, int value){
+    node *newNode = new node();
+    newNode->data = value;
+    newNode->next = head;
+    head = newNode;
+}
+
 int main(){
     node *head = new node;
     head->data = 10;
@@ -59,6 +66,15 @@ int main(){
     // cout << "NULL" << endl;
 
     printLinkedList(head);
+
+    insertAtHead(head, 11);
+    cout << endl;
+
+    cout << "Inserting element at Head: " << endl;
+    printLinkedList(head);
+    cout << endl;
+
+    
 
     delete head;
     delete second;
