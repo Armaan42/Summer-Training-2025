@@ -27,3 +27,8 @@
     - Constructor
     - pointer problems
     - Dicussion on Recursion and its types
+
+## Day 5
+    - Linkedlist
+    - Error finding in given code
+    
