@@ -22,6 +22,10 @@ Distructor:
 
 this keyword:
     - this keyword is a constant pointer which contain address of current object.
+
+static data member:
+    - It define using static keyword.
+    - when static is used with data member in a class, it makes the variable shared among all instances of the class.
 */
 
 #include<iostream>
