@@ -19,6 +19,9 @@ NOTE:- For every constructor call, there must have constructor definition otherw
 Distructor:
     - It is use to destroy the object.
     - in other word it deallocate memory allocated by constructor.
+
+this keyword:
+    - this keyword is a constant pointer which contain address of current object.
 */
 
 #include<iostream>
