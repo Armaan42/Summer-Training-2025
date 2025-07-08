@@ -2,7 +2,7 @@
 Constructor: constuctor are the function define inside class and function name must be same as class name.
     - constructor did not have any return type.
     - we can not call constructor function, it was invoke when object of a class is created.
-    - constructor can be override.
+    - constructor can be overload.
 
 Types of constructor:
     1. Default constructor (or Non-parameterised constructor):
@@ -13,6 +13,12 @@ Types of constructor:
 
     3. copy constructor:
         - A constructor that initialized an object using another object of the same class.
+
+NOTE:- For every constructor call, there must have constructor definition otherwise it shows an error.
+
+Distructor:
+    - It is use to destroy the object.
+    - in other word it deallocate memory allocated by constructor.
 */
 
 #include<iostream>
