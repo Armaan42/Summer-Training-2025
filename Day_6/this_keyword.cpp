@@ -18,4 +18,9 @@ int main(){
     cout << "Address of b1: " << &b1 << endl;
     b1.print();
 
+    btech b2;
+    cout << "Address of b1: " << &b2 << endl;
+    b2.print();
+
+    return 0;
 }
