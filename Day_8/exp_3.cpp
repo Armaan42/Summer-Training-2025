@@ -52,7 +52,7 @@ void print(node* head) {
 int main() {
     node* head = NULL;
     
-    for(int i = 5; i >= 1; i--) {
+    for(int i = 5; i >= 0; i--) {
         insert_head(head, i);
     }
     
@@ -64,11 +64,3 @@ int main() {
     
     return 0;
 }
-
-
-// void delete_series(node* &head, int start, int end){
-//     for(int i = start + 1; i<end; i++){
-//         delete_at_position(head, i);
-//     }
-// }
-
