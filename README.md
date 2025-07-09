@@ -31,4 +31,16 @@
 ## Day 5
     - Linkedlist
     - Error finding in given code
-    
+
+## Day 6
+    - Constructor and its types
+    - problem based on constructor
+
+## Day 7
+    - constructor 
+    - linked list and types
+    - problems
+
+## Day 8
+    - leetcode problems
+    - logic building problems
