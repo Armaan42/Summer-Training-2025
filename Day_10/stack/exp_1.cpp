@@ -8,14 +8,17 @@ int main(){
 
     stack <char> s;
 
-    for(char c: str){
-        s.push(c);
+    int i=0;
+    while(i!=str.length()){
+        s.push(str[i]);
+        i++;
     }
 
     while(!s.empty()){
         cout << s.top();
         s.pop();
-    }cout << endl;
+    }
+    cout << endl;
 
     return 0;
 }
