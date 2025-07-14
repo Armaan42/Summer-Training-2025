@@ -1,0 +1,34 @@
+Polish notation:
+    This type of notation was introduced by the polish notation mathematician lukasiewicz.
+    - polish notation in data strucuture tells us about different ways to write an arithmeatic expression
+
+    - An arithematic expression contains 2 things:
+        1. Operator:
+            operator is a symbol that represents a specific operation to be performed.
+            e.g., +, -, *, /, ^, %
+
+        2. Operand:
+            Operand is a value or a variable on which an operation is performed by an operator
+            e.g., 0 to 9, a to z, A to Z
+
+- There are mainly three types of Polish notation:
+    1. Infix notation:
+        - This polish notation in data structure states that the operator is written in between the operands.
+        e.g., ( a + b ) x c ( a + b ) x c
+                a + b - c + d
+
+    2. Prefix notation:
+        - This notation in data structure states that the operator should be present as prefix or before the operands.
+
+        e.g., + a b
+            + - a b c + - a b c
+            x a b x a b
+        - 
+    3. postfix notation:
+        - This notation in data structure states that the operator should be present as a after the operands
+
+        - Postfix notataion is a computer understanable format.
+
+        e.g., 
+        a b -
+        a b / c d /
