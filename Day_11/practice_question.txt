@@ -1,0 +1,6 @@
+1. Reverse Nodes in k-group
+2. Palindrome linked list
+3. Middle of the linked list
+4. Delete middle element from stack
+5. Insert an element at its bottom in a given stack
+6. Reverse stack using recursion
