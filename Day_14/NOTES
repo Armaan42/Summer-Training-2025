@@ -1,0 +1,54 @@
+Queue is define inside <Queue> header file.
+- There are mainly 4 types of queue:
+
+1. simple queue
+
+2. Circular queue
+    - The last position is connected back to the first to make a circle.
+    - It prevents wastage of space in a linear queue.
+
+3. Priority queue
+    - Elements are based on priority, not just an order.
+    - Higher priority elements are dequeued before lower ones.
+
+4. Double ended queue (Dequeue):
+    - Insertion and deletion can happen at both ends( front and rear ).
+    4.1 Input restricted queue: Insertion at only one end.
+    4.2 Output restricted queue: Deletion from only one end.
+
+Searching:
+    - search element one by one.
+    They are mainly two type:
+        1. Linear Search:
+            search element one by one:
+            complexity: 0(n)
+
+            Algorithm:
+            1. Start from the first element
+            2. Compare each element with the target.
+            3. If a match is found, return the index.
+            4. If end is reached without a match, return -1 (not found).
+
+        2. Binary Search:
+            Divide and conquer on sorted array.
+            complexity: n(log(n))
+
+            Array must be sorted.
+
+    Sorting:
+        1. Selection sorting
+        2. Bubble sorting
+            Algorithm:
+            
+            1. Start from the first element.
+            2. Compare each other of adjacent elements
+            3. If the left element is greater, swap them.
+            4. Repeat the process for all element.
+            5. After each pass, the largest element bubbles to the end.
+            6. continue for n-1 passes or until no swaps are needed.
+
+            Time complexity:
+
+                Best case: O(n)
+                Worst case: O(n^2)
+                Average case: O(n^2)
