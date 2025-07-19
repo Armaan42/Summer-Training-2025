@@ -1,0 +1,4 @@
+Insertion sort
+
+Insertion sort is a simple comparsion-based sorting algorithm,
+It build the final sorted array one element at a time, just like how 
