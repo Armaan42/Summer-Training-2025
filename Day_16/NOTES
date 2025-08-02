@@ -1,0 +1,22 @@
+Graph:
+    A Graph is a non-linear data structure consisting of nodes and edges.
+
+Real life examples:
+    1. Social Networks
+    2. Google maps
+    3. Network topologies
+
+Main types of Graph:
+    1. Undirected
+    2. Directed
+    3. Weighted
+    4. Cyclic
+
+Representation of 2D matrix
+    1. Adjacency matrix:
+        A 2D array of size V x V, where V is the number of vertices.
+
+            - matrix[i][j] = 1: Indicates an edge exists between vertex i and j.
+            - matrix[i][j] = 0: Indicates no edges exists between vertex i and j.
+
+    2. Adjacency list:
